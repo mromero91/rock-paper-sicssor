@@ -1,0 +1,32 @@
+{{ template "base" . }}
+
+{{ define "title" }}RPS - Inicio{{ end }}
+
+{{ define "content" }}
+<section class="container mx-auto py-10">
+    <h1 class="text-4xl font-bold text-center py-6">Bienvenido a Piedra, Papel o Tijera</h1>
+    
+    <div class="flex justify-center gap-8">
+        <img src="static/img/rock_icon.png" alt="rock_icon" class="w-32 h-32">
+        <img src="static/img/paper_icon.png" alt="paper_icon" class="w-32 h-32">
+        <img src="static/img/scissors_icon.png" alt="scissors_icon" class="w-32 h-32">
+    </div>
+    
+    <p class="text-center text-2xl py-6">Juega contra la computadora</p>
+    
+    <div class="text-center">
+        <a href="/new" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold">
+            Nuevo juego
+        </a>
+    </div>
+</section>
+
+<section class="container mx-auto py-10">
+    <h2 class="text-3xl font-semibold mb-4">¿Cómo se juega?</h2>
+    <ol class="list-decimal list-inside space-y-2 bg-gray-100 p-6 rounded-lg shadow-md">
+        <li class="text-lg">Crear un juego nuevo.</li>
+        <li class="text-lg">Ingrese su nombre.</li>
+        <li class="text-lg">Empiece a jugar.</li>
+    </ol>
+</section>
+{{ end }}

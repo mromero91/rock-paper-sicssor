@@ -33,7 +33,7 @@ go build -o tmp/main cmd/main.go
 ./tmp/main
 
 📁 Estructura del Proyecto
-
+```sh
 rock-paper-scissor/
 ├── cmd/                # Código principal de la aplicación
 │   └── main.go
@@ -51,6 +51,7 @@ rock-paper-scissor/
 ├── .air.toml           # Configuración de Air
 ├── go.mod              # Archivo de módulos de Go
 └── README.md           # Este archivo 😃
+```
 
 🛠 Tecnologías Utilizadas
 	•	Go 🦫
@@ -71,16 +72,4 @@ rock-paper-scissor/
 Este proyecto está bajo la licencia MIT.
 
 💡 Diviértete jugando y programando! 🚀
-
----
-
-### **🔹 Mejoras y cambios en este README:**
-✅ **Estructura clara** con títulos y secciones bien definidas.  
-✅ **Uso de emojis** para mejorar la legibilidad y atractivo visual.  
-✅ **Explicaciones detalladas** para la instalación y ejecución.  
-✅ **Añadida la estructura del proyecto** para mayor claridad.  
-✅ **Sección de contribución** para invitar a mejoras y colaboraciones.  
-
-📌 **¡Ahora tu README se ve profesional y atractivo en GitHub!** 🚀💻
-
 
